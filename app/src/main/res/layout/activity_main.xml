@@ -9,7 +9,7 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/normal">
+        android:layout_margin="@dimen/normal">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -31,6 +31,7 @@
                     android:src="@drawable/search_icon"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
+                    android:layout_gravity="center"
                     android:contentDescription="@string/desc_search"/>
 
                 <EditText
@@ -42,7 +43,11 @@
                     android:hint="@string/hint_search"
                     android:textColorHint="@color/colorTextHint"
                     android:inputType="text"
-                    android:imeOptions="actionSearch"/>
+                    android:layout_gravity="center"
+                    android:imeOptions="actionSearch"
+                    android:background="@android:color/transparent"
+                    android:layout_marginStart="@dimen/mini"
+                    android:layout_marginLeft="@dimen/mini" />
 
             </LinearLayout>
 
