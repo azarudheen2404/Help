@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Help</string>
+    <string name="desc_search">Search Icon</string>
+    <string name="hint_search">Search</string>
 </resources>
